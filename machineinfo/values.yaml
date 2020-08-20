@@ -51,6 +51,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-configs:
-   color: pink
