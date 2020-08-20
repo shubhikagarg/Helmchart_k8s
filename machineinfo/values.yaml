@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nehashirsat/devops_repo
+  repository:  deepakbedase/machineinfo_env
   tag: v1.1.0
   pullPolicy: IfNotPresent
 
