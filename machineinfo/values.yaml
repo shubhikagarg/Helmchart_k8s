@@ -14,10 +14,10 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: LoadBalancer
+  type: NodePort
   port: 9000
-  targetPort: 31000 
-  ExternalIP: 192.27.0.1
+  targetPort: 9000 
+ 
 
 ingress:
   enabled: false
